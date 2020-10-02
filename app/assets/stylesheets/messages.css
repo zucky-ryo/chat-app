@@ -2,13 +2,13 @@
   display: flex;
 }
 
-.side-wrapper{
+.side-bar{
   background-color: #253141;
   height: 100vh;
   width: 300px;
 }
 
-.side-top{
+.side-bar-header{
   height: 100px;
   padding: 0 20px;
   display: flex;
@@ -16,13 +16,13 @@
   align-items: center;
 }
 
-.user-name a{
+.header-name a{
   color: #fafafa;
   font-size: 16px;
   text-decoration: none;
 }
 
-.new-chat a{
+.create-room a{
   color: deepskyblue;
   font-size: 10px;
   text-decoration: none;
@@ -30,7 +30,7 @@
   padding: 14px;
 }
 
-.room-list{
+.rooms{
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
@@ -41,41 +41,41 @@
   padding: 20px 0 40px;
 }
 
-.room a{
+.room-name a{
   color: white;
   text-decoration: none;
 }
 
-.main-wrapper{
+.chat{
   background-color: #ffffff;
   width: calc(100% - 300px);
 }
 
-.main-top{
+.chat-header{
   height: 100px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
 }
 
-.room-title{
+.header-title{
   font-size: 24px;
   color: #333;
   padding-top: 36px;
 }
 
-.room-finish{
+.header-button{
   margin-top: 40px;
 }
 
-.room-finish a{
+.header-button a{
   color: darkred;
   border: 1px solid darkred;
   text-decoration: none;
   padding: 20px;
 }
 
-.main-room{
+.messages{
   background-color: #fafafa;
   height: calc(100vh - 190px);
   padding: 46px 40px 0;
@@ -86,22 +86,22 @@
   margin: 10px 0;
 }
 
-.message-top{
+.upper-message{
   display: flex;
 }
 
-.name{
+.message-user{
   font-size: 16px;
   color: #434a54;
 }
 
-.date{
+.message-date{
   font-size: 12px;
   color: #999;
   padding-left: 10px;
 }
 
-.message-bottom{
+.lower-message{
   margin-top: 10px;
 }
 
@@ -111,20 +111,20 @@
   margin-bottom: 40px;
 }
 
-.message-form{
+.form{
   background-color: #dddddd;
   height: 90px;
   padding: 20px 40px;
   display: flex;
 }
 
-.input-form{
+.form-input{
   background-color: white;
   width: 100%;
   display: flex;
 }
 
-.text-form{
+.form-message{
   height: 50px;
   width: 100%;
   padding-left: 10px;
@@ -145,7 +145,7 @@
   display: none;
 }
 
-.submit-form{
+.form-submit{
   height: 50px;
   background-color: #38aef0;
   color: white;
