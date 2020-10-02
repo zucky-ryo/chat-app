@@ -1,0 +1,42 @@
+.wrapper{
+  display: flex;
+}
+
+.side-wrapper{
+  background-color: #253141;
+  height: 100vh;
+  width: 300px;
+}
+
+.side-top{
+  height: 100px;
+  padding: 0 20px;
+}
+
+.room-list{
+  background-color: #2f3e51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+}
+
+.main-wrapper{
+  background-color: #ffffff;
+  width: calc(100% - 300px);
+}
+
+.main-top{
+  height: 100px;
+  padding: 0 40px;
+}
+
+.main-room{
+  background-color: #fafafa;
+  height: calc(100vh - 190px);
+  padding: 46px 40px 0;
+}
+
+.message-form{
+  background-color: #dddddd;
+  height: 90px;
+  padding: 20px 40px;
+}
